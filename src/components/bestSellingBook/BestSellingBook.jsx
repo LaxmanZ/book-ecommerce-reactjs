@@ -1,12 +1,12 @@
+import { BsArrowRight } from 'react-icons/bs';
+import { Link } from 'react-router-dom';
+
 import TitleTypeTwo from '../../UI/titleTypeTwo/TitleTypeTwo';
 import './bestSellingBook.css';
 
 import { sellingBooksData } from '../../data/Data';
 
 import TreeShape from '../../assets/treeshape.png';
-
-import { BsArrowRight } from 'react-icons/bs';
-import { Link } from 'react-router-dom';
 
 const BestSellingBook = () => {
   return (
